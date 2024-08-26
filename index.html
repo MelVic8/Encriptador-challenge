@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es-spe">
+<head>
+    <meta charset="UTF-8" />
+    <meta>
+    <meta nome="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <title>Encriptador</title>
+ </head>
+  <body>
+   <header>
+     <img class="logo" src="./assets/logo.png" alt="logo de Alura" >
+   </header>
+     <main >
+    
+      <section class="presentacion__contenido">
+       
+        <h1 class="titulo"> 
+         ENCRIPTADOR DE TEXTO</h1>
+        <textarea  class="text-area" cols="30" rows="10" placeholder=" Ingrese el texto aqui"></textarea>
+      <div>
+        
+           <h6 class="informacion" >&#9888;  solo letras mayusculas y sin acento</h6>
+        
+            
+       </div>
+          
+       <div class="botones">
+           <button class="btn-encriptar" onclick="btnEncriptar()"> Encriptar</button>
+           <button class="btn-desencriptar" onclick="btnDesencriptar()">Desencriptar</button>
+
+      </div>
+      </section>
+    
+       <section class="mensaje__copiar">
+      
+               <textarea class="mensaje" cols="20" rows="10" id="copiar"  ></textarea>
+      
+  
+      <div>
+                <button class="copiar" onclick="copiarTexto ()">Copiar</button>
+      </div>
+  
+      </section>
+
+      </main>
+           <script src="/script.js "> </script>
+  <footer class="footer">
+          <a class="link" href="https://github.com/MelVic8"><img src="./assets/github.png" alt="logo de github"> </a>
+          <p>Desarrollado por Melissa Izquierdo</p>
+  </footer>
+</body>
+</html>
